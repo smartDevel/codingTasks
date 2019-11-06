@@ -8,7 +8,5 @@ const howOld = (age, year) => {
       case calcAge <= age : return `You were ${calcAge} in the year ${year} passed in`;    
     }
   }
-  
-  
   console.log(howOld(57,2035));
   console.log(howOld(57,2023));
